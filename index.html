@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mario+Janie</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+<link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+<style>
+body,h1,h2{font-family: "Playfair Display", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("pics/red_sky_floor_qual_horz.png")}
+.bgimg2 {background-image: url("pics/red_sky_floor_qual_horz_footer.png")}
+
+.footer {
+  background-image: url("pics/red_sky_floor_qual_horz_footer.png");
+  height: 120px;
+}
+</style>
+</head>
+<body>
+
+<!-- Header / Home  w3-grayscale-min-->
+<header class="w3-display-container w3-wide bgimg" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">Mario & Janie</h1>
+    <h2>si sposeranno | are getting married</h2>
+    <h2><b>12.09.2025</b></h2>
+    <button onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSdJ3Q--yldKoeZCmF-kHAmSBYdtuO1Q_7Pe4dG_fOQ_9KCFGA/viewform?usp=header'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off w3-hover-orange" style="padding:8px 60px">
+         RSVP</button>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button w3-hover-orange">&#x2665;</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button w3-hover-pink">Mario & Janie</a>
+    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button w3-hover-orange">Wedding | Matrimonio</a>
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-pink">RSVP</a>
+  </div>
+</div>
+
+<!-- About -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>Mario & Janie</b></h1>
+    <img class="w3-round w3-grayscale-min" src="pics/us.jpg" style="width:100%;margin:32px 0">
+    <p> <i>We would love for you to come<br>
+        Saremmo felici di festeggiare insieme a te<br>
+
+        Comunicaci la tua presenza entro il 15 Aprile<br>
+        Let us know before April 15th<br>
+        </i>
+    </p>
+    <p>More details will come soon! | Maggiori dettagli arriveranno presto!</p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h2 >Sei Invitato | You Are Invited</h2><br>
+    <!-- <h2>Of course..</h2> -->
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>WEDDING | MATRIMONIO</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="pics/castello.png" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      <div class="w3-half">
+        <h2>When | Quando</h2>
+        <p>Venerdì 12 Settembre 2025 | Friday 12th September 2025</p>
+        <p>Ceremony 4.30pm | Ceremonia 16.30</p>
+      </div>
+      <div class="w3-half">
+        <h2>Dove | Where</h2>
+        <p>Castello della Castelluccia</p>
+        <p>Roma | Rome</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+  <h1>Speriamo che tu possa venire! | Hope you can make it!</h1>
+  <p class="w3-large">Kindly Respond By March 15th | Comunicaci la tua presenza entro il 15 Marzo </p>
+  <p class="w3-xlarge">
+    <button onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSdJ3Q--yldKoeZCmF-kHAmSBYdtuO1Q_7Pe4dG_fOQ_9KCFGA/viewform?usp=header'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off w3-hover-pink" style="padding:8px 60px">
+         RSVP</button>
+  </p>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-2021-burnt-coral w3-padding-16 footer">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-red">w3.css</a>     --- &#x2665; ---       Artwork by <a href="https://ceciliasnowart.github.io/" title="W3.CSS" target="_blank" class="w3-hover-text-red">Cecilia</a></p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+</html>
